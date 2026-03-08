@@ -1,0 +1,11 @@
+.app-counter-container{
+    border: #cdcdcd 1.5px solid;
+}
+
+.app-counter{
+    margin: 220px auto;
+    width: 420px;
+    border: #cdcdcd 1.5px solid;
+    padding: 10px 30px;
+}
+
