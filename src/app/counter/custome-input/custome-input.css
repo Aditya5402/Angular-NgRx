@@ -15,26 +15,26 @@
     background-color: transparent;
     border: none;
     color: white;
-    font-size: 2opx;
+    font-size: 20px;
     font-weight: bold;
 }
 
-.custome-input-container{
+.custom-input-container{
     padding: 20px 30px;
     border: #cdcdcc 1.5px solid;
 }
-.custome-input-container input{
-    width: 70px;
+
+.custom-input-container input{
+    width: 200px;
     height: 35px;
     border: #e74c3c 1.5px solid;
     background-color: transparent;
 }
 
-.btn-increment-by{
+.btn-increment{
     width: 30%;
     height: 35px;
     border: none;
     background-color: #e74c3c;
     color: white;
 }
-
