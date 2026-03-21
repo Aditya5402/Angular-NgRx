@@ -1,0 +1,39 @@
+npm error code ERESOLVE
+npm error ERESOLVE could not resolve
+npm error
+npm error While resolving: @angular/core@20.3.17
+npm error Found: @angular/compiler@20.3.18
+npm error node_modules/@angular/compiler
+npm error   @angular/compiler@"20.3.18" from the root project
+npm error   peer @angular/compiler@"^20.0.0" from @angular/build@20.3.19
+npm error   node_modules/@angular/build
+npm error     dev @angular/build@"20.3.19" from the root project
+npm error   2 more (@angular/compiler-cli, @angular/platform-server)
+npm error
+npm error Could not resolve dependency:
+npm error peerOptional @angular/compiler@"20.3.17" from @angular/core@20.3.17
+npm error node_modules/@angular/core
+npm error   @angular/core@"20.3.17" from the root project
+npm error   peerOptional @angular/core@"^20.0.0" from @angular/build@20.3.19
+npm error   node_modules/@angular/build
+npm error     dev @angular/build@"20.3.19" from the root project
+npm error   5 more (@angular/common, @angular/ssr, @ngrx/effects, ...)
+npm error
+npm error Conflicting peer dependency: @angular/compiler@20.3.17
+npm error node_modules/@angular/compiler
+npm error   peerOptional @angular/compiler@"20.3.17" from @angular/core@20.3.17
+npm error   node_modules/@angular/core
+npm error     @angular/core@"20.3.17" from the root project
+npm error     peerOptional @angular/core@"^20.0.0" from @angular/build@20.3.19
+npm error     node_modules/@angular/build
+npm error       dev @angular/build@"20.3.19" from the root project
+npm error     5 more (@angular/common, @angular/ssr, @ngrx/effects, ...)
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error C:\Users\asus\AppData\Local\npm-cache\_logs\2026-03-21T18_57_17_568Z-eresolve-report.txt
+npm error A complete log of this run can be found in: C:\Users\asus\AppData\Local\npm-cache\_logs\2026-03-21T18_57_17_568Z-debug-0.log
