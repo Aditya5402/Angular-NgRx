@@ -37,4 +37,5 @@
     padding-bottom: 20x;
     display: flex;
     flex-wrap: wrap;
+    gap: 16px;
 }

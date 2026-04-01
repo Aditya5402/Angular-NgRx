@@ -7,10 +7,20 @@
                <input type="text" name="" placeholder="Search Courses">
                <button>Search</button>
            </div>
+           <div class="course-header-search" >
+               <button class="create-course-btn" (click)="showCreateForm()">Create Course</button>
+           </div>
     </div>
 
     <div class="course-list-container">
-        <app-course-card></app-course-card>
+        
+@for (course of courses$ | async; track course.id) {
+    <app-course-card [course]="course" ></app-course-card>
+}
     </div>
 </div>
+
+@if(showForm$ | async){
+    <app-add-course></app-add-course>
+}
 

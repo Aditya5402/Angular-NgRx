@@ -1,7 +1,8 @@
 import { Courses } from "../../models/course.model"
 
 export interface CoursesState{
-    courses:Courses[]
+    courses:Courses[],
+    showForm: boolean
 } 
 export const  initailState:CoursesState = {
     courses: [
@@ -9,7 +10,7 @@ export const  initailState:CoursesState = {
           id: 1,
           title: 'Angular Complete Guide',
           description: 'Learn Angular from scratch with hands-on projects and real-world examples.',
-          image: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg',
+          image: './images/Angular.webp',
           author: 'John Smith',
           price: 1299
         },
@@ -17,10 +18,11 @@ export const  initailState:CoursesState = {
           id: 2,
           title: 'NgRx State Management',
           description: 'Master NgRx store, effects, and selectors to manage complex Angular app state.',
-          image: 'https://ngrx.io/assets/images/badge.svg',
+          image: './images/JS.avif',
           author: 'Jane Doe',
           price: 1599
         }
-    ]
+    ],
+    showForm: false
     
 }

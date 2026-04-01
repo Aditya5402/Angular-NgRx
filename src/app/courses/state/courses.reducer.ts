@@ -1,8 +1,13 @@
 import { createReducer, on } from "@ngrx/store";
 import { initailState } from "./courses.state";
-import { getCourses } from "./courses.action";
+import { showForm } from "./courses.action";
 
 export const coursesReducer = createReducer(
     initailState,
-    
+    on(showForm, (state, action)=>{
+        return{
+            ...state,
+            showForm: action.value
+        }
+    })
 )
